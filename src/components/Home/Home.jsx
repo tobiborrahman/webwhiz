@@ -4,6 +4,7 @@ import Portfolio from '../pages/Portfolio/Portfolio';
 import About from '../pages/About/About';
 import Services from '../pages/Services/Services';
 import Review from '../pages/Review/Review';
+import Contact from '../pages/Contact/Contact';
 
 const Home = () => {
 	return (
@@ -12,7 +13,8 @@ const Home = () => {
 			<Portfolio />
 			<About />
 			<Services />
-			<Review />
+			{/* <Review /> */}
+			<Contact />
 		</div>
 	);
 };
