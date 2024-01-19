@@ -3,7 +3,7 @@ import logo from '../../assets/images/logoo.png';
 
 const Navbar = () => {
 	return (
-		<div className="flex justify-between items-center py-4">
+		<div className="container mx-auto flex justify-between items-center py-4">
 			<img src={logo} alt="" />
 			<nav>
 				<ul className="flex justify-center items-center gap-6">

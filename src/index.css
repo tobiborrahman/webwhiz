@@ -47,10 +47,10 @@ nav ul li {
 
 .text {
 	background: linear-gradient(to left, var(--blue), var(--lightblue));
-	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .linear-background {
-	background-image: linear-gradient(to right, var(--blue), var(--lightblue));
+	background-image: linear-gradient(to left, var(--blue), var(--lightblue));
 }

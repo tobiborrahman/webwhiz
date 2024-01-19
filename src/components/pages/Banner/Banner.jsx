@@ -7,7 +7,7 @@ import { GoArrowUpRight } from 'react-icons/go';
 
 const Banner = () => {
 	return (
-		<div className="flex justify-between items-center my-[100px]">
+		<div className="container mx-auto flex justify-between items-center my-[100px]">
 			<div>
 				<h1 className="text-6xl font-bold leading-tight">
 					Turning <br /> <span className="text">Imagination</span>{' '}

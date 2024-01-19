@@ -3,7 +3,7 @@ import group from '../../../assets/images/group-photo.png';
 
 const About = () => {
 	return (
-		<div className="py-20">
+		<div className="container mx-auto py-20">
 			<div className="flex justify-between items-center">
 				<div>
 					<h5 className="text-xl text-[var(--caption)] mb-2">
@@ -23,7 +23,7 @@ const About = () => {
 			</div>
 
 			<div className="flex justify-between items-center pt-10 relative">
-				<div className="bg-gray-200 rounded-lg py-9 px-[50px] w-[554px] h-[348px]">
+				<div className=" bg-[#F6F9FE] rounded-lg py-9 px-[50px] w-[554px] h-[348px]">
 					<div className="pb-3">
 						<p className="font-semibold">Graphic Design</p>
 						<div className="flex justify-center items-center w-full ">
