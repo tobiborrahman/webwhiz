@@ -8,21 +8,23 @@ import { GoArrowUpRight } from 'react-icons/go';
 const Services = () => {
 	return (
 		<div className="container mx-auto py-20 bg-[#F6F9FE]">
-			<div className="flex justify-between items-center">
+			<div className="md:flex justify-between items-center">
 				<div>
-					<h5 className="text-xl text-[var(--caption)] mb-2">
+					<h5 className="text-xl text-center md:text-left text-[var(--caption)] mb-2">
 						Services
 					</h5>
-					<h2 className="text-4xl font-bold leading-tight">
+					<h2 className="text-[30px] md:text-4xl text-center md:text-left font-bold leading-tight">
 						Our <span className="text">Satisfied Customers</span>{' '}
 						<br /> Share Their Stories
 					</h2>
 				</div>
-				<p className="border-l-[4px] rounded border-[var(--lightblue)] pl-3">
+				<p className="md:border-l-[4px] text-center md:text-left rounded border-[var(--lightblue)] md:pl-3 mt-3">
 					In our portfolio section, you'll embark on a visual journey
-					through a <br /> meticulously curated gallery that
-					represents the epitome of digital <br /> excellence and
-					creative ingenuity.
+					through a meticulously{' '}
+					<span className="hidden md:block">
+						curated gallery that represents the epitome of digital
+						excellence and creative ingenuity.
+					</span>
 				</p>
 			</div>
 

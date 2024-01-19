@@ -17,8 +17,8 @@ import {
 
 const Footer = () => {
 	return (
-		<div className="container mx-0 py-20 bg-[#0E1025]">
-			<div className="flex justify-between items-center">
+		<div className="container mx-auto py-20 bg-[#0E1025]">
+			<div className="md:flex justify-between items-center">
 				<div>
 					<h5 className="text-xl text-[var(--caption)] mb-2">
 						About Us
@@ -96,6 +96,12 @@ const Footer = () => {
 					</a>
 				</nav>
 			</footer>
+			<div className="mt-7">
+				<hr className="text-gray-800" />
+				<h4 className="text-center text-white mt-5">
+					&copy; Copyright 2K24 E-learner, USA
+				</h4>
+			</div>
 		</div>
 	);
 };

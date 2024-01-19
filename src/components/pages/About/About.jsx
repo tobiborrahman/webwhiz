@@ -4,7 +4,7 @@ import group from '../../../assets/images/group-photo.png';
 const About = () => {
 	return (
 		<div className="container mx-auto py-20">
-			<div className="flex justify-between items-center">
+			<div className="md:flex justify-between items-center">
 				<div>
 					<h5 className="text-xl text-[var(--caption)] mb-2">
 						About Us

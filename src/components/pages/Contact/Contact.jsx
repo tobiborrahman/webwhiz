@@ -17,8 +17,8 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="container mx-auto my-20 mr-0 pr-0 relative">
-			<div className="flex justify-between items-center">
+		<div className="container mx-auto my-20  relative">
+			<div className="md:flex justify-between items-center">
 				<div>
 					<h1 className="text-4xl font-bold">Contact Us</h1>
 					<p className="border-l-[4px] rounded border-[var(--lightblue)] pl-3 mt-3">

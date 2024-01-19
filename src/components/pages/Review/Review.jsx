@@ -12,7 +12,7 @@ const Review = () => {
 				expectations
 			</p>
 
-			<div className="flex gap-8 relative">
+			<div className="md:flex gap-8 relative">
 				<div className="absolute left-[0%]">
 					<img className="w-[216px] h-[216px] " src={man1} alt="" />
 				</div>
