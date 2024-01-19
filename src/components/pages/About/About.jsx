@@ -23,7 +23,7 @@ const About = () => {
 			</div>
 
 			<div className="flex justify-between items-center pt-10 relative">
-				<div className=" bg-[#F6F9FE] rounded-lg py-9 px-[50px] w-[554px] h-[348px]">
+				<div className="bg-[#F6F9FE] rounded-lg py-9 px-[50px] w-[554px] h-[348px]">
 					<div className="pb-3">
 						<p className="font-semibold">Graphic Design</p>
 						<div className="flex justify-center items-center w-full ">
@@ -73,12 +73,12 @@ const About = () => {
 				<div className="absolute left-[51%]">
 					<div className="relative">
 						<img
-							className="w-[440px]  h-[312px] ml-6 mt-[-34px]"
+							className="w-[460px]  h-[312px] ml-6 mt-[-34px]"
 							src={group}
 							alt=""
 						/>
 						<div className="absolute top-[90%] right-[-12%]">
-							<div className="linear-background flex justify-between items-center rounded-2xl w-[440px] px-10 text-white h-[90px]">
+							<div className="background flex justify-between items-center rounded-2xl w-[460px] px-10 text-white h-[90px]">
 								<div className="text-center">
 									<h3 className="text-2xl font-semibold">
 										58+

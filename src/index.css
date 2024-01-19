@@ -51,6 +51,7 @@ nav ul li {
 	-webkit-text-fill-color: transparent;
 }
 
-.linear-background {
+.background {
 	background-image: linear-gradient(to left, var(--blue), var(--lightblue));
+	color: white;
 }
