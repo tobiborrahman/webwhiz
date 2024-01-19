@@ -3,7 +3,6 @@ import landing1 from '../../../assets/images/pen-tool.png';
 import landing2 from '../../../assets/images/color-swatch.png';
 import landing3 from '../../../assets/images/command.png';
 import arrow from '../../../assets/images/send.png';
-import { GoArrowUpRight } from 'react-icons/go';
 
 const Services = () => {
 	return (
