@@ -5,6 +5,7 @@
 :root {
 	--blue: #185ad9;
 	--lightblue: #5f90f0;
+	--caption: #fba017;
 }
 
 .btn {
@@ -48,4 +49,8 @@ nav ul li {
 	background: linear-gradient(to left, var(--blue), var(--lightblue));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.linear-background {
+	background-image: linear-gradient(to right, var(--blue), var(--lightblue));
 }
