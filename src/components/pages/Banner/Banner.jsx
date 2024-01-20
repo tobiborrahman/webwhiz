@@ -20,7 +20,7 @@ const Banner = () => {
 					digital realities.
 				</p>
 
-				<button className="btn mr-4 mt-7">Hire Me</button>
+				<button className="btn-1 mr-4 mt-7">Hire Me</button>
 				<button className="btn-2">Portfolio</button>
 			</div>
 			<div className="relative">

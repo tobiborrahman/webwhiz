@@ -13,7 +13,7 @@ const Navbar = () => {
 					<li>Services</li>
 					<li>Testimonials</li>
 					<li>Blog</li>
-					<button className="btn">Contact</button>
+					<button className="btn-1">Contact</button>
 				</ul>
 			</nav>
 		</div>
