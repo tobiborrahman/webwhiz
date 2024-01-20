@@ -28,24 +28,24 @@ const Banner = () => {
 				<button className="btn-2">Portfolio</button>
 			</div>
 			<div className="relative">
-				<div className="rounded-lg shadow-md z-20 p-4 bg-white w-[200px] h-[79px] flex justify-center items-center absolute top-[8%] left-[-25%]">
+				<div className="rounded-lg shadow-md z-20 p-4 bg-white w-[150px] h-[57px] md:w-[200px] md:h-[79px] flex justify-center items-center absolute top-[-5%] md:top-[8%] left-[-2%] md:left-[-25%]">
 					<img
 						className="w-[40px] h-[40px] rounded-full mr-3"
 						src={man}
 						alt=""
 					/>{' '}
 					<div>
-						<h5 className="leading-4 text-[15px]">
+						<h5 className="leading-4">
 							<span className="text-black font-semibold">
 								Albart Flores
 							</span>{' '}
 							<br />
-							Product Manager
+							<span className="text-[12px]">Product Manager</span>
 						</h5>
 					</div>
 				</div>
 
-				<div className="rounded-lg shadow-md z-20 p-4 bg-white w-[200px] h-[79px] flex justify-center items-center absolute bottom-[38%] right-[0%]">
+				<div className="rounded-lg shadow-md z-20 p-4 bg-white w-[150px] h-[57px] md:w-[200px] md:h-[79px] flex justify-center items-center absolute bottom-[38%] right-[0%]">
 					<div className="mr-5 w-9 h-9 bg-gray-200 p-1 text-[var(--blue)] rounded-full flex justify-center items-center">
 						<FaUser />
 					</div>
@@ -81,14 +81,14 @@ const Banner = () => {
 					</div>
 				</div>
 
-				<div className="w-[150px] h-[57px] md:w-[310px] md:h-[50px] bg-pink-100 absolute top-[-6%] left-[5%] rounded-full z-0"></div>
+				<div className="w-[295px] h-[57px] md:w-[310px] md:h-[50px] bg-pink-100 absolute top-[-6%] left-[7%] md:top-[-6%] md:left-[5%] rounded-full z-0"></div>
 
-				<div className="w-[310px] h-[50px] bg-pink-100 absolute bottom-[-6%] left-[5%] rounded-full z-0"></div>
+				<div className="w-[295px] h-[57px] md:w-[310px] md:h-[50px] bg-pink-100 absolute bottom-[-6%] left-[7%] md:bottom-[-6%] md:left-[5%] rounded-full z-0"></div>
 
-				<div className="w-[30px] h-[30px] border-[6px] border-[#9264E3] absolute bottom-[-9%] left-[4%] rounded-full z-0"></div>
+				<div className="w-[30px] h-[30px] border-[6px] border-[#9264E3] absolute bottom-[-9%] left-[7%] md:left-[4%] rounded-full z-0"></div>
 
 				<div className="w-[80px] h-[80px] z-0 absolute right-[13%] opacity-50 top-[-12%] bg-gray-200 rounded-full"></div>
-				<div className="flex  backside justify-center items-center mr-[80px]">
+				<div className="flex backside justify-center items-center md:mr-[80px]">
 					<img
 						className="w-[327px] h-[286px] md:w-[358px] md:h-[433px] z-10"
 						src={man}
