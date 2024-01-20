@@ -17,7 +17,7 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="container mx-auto my-20 md:mr-0 md:pr-0 relative">
+		<div className=" my-20 md:mr-0 md:pr-0 relative lg:container lg:mx-auto">
 			<div className="md:flex justify-between items-center">
 				<div>
 					<h1 className="text-4xl font-bold">Contact Us</h1>

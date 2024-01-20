@@ -47,7 +47,7 @@ const Portfolio = () => {
 
 			{/* swiper  */}
 			<Swiper
-				slidesPerView={2}
+				slidesPerView={3}
 				spaceBetween={30}
 				loop={true}
 				freeMode={true}
@@ -59,7 +59,7 @@ const Portfolio = () => {
 				scrollbar={{ dragSize: '50px' }}
 				navigation={true}
 				modules={[Autoplay, FreeMode, Scrollbar, Navigation]}
-				className="mySwiper mt-10 "
+				className="mySwiper mt-10 w-full"
 			>
 				<SwiperSlide className="hover-img relative">
 					<img src={swiper1} alt="" />
