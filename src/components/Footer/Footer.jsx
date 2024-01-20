@@ -3,38 +3,33 @@ import star from '../../assets/images/star.png';
 import logo2 from '../../assets/images/logo-2.png';
 import {
 	FaBehance,
-	FaBehanceSquare,
 	FaDribbble,
-	FaFacebook,
-	FaFacebookF,
-	FaLinkedin,
 	FaLinkedinIn,
 	FaMailBulk,
-	FaTelegram,
 	FaTelegramPlane,
 	FaTwitter,
 } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
-		<div className="container mx-auto py-20 bg-[#0E1025]">
+		<div className="container mx-auto pt-20 pb-10 bg-[#0E1025]">
 			<div className="md:flex justify-between items-center">
 				<div>
 					<h5 className="text-xl text-[var(--caption)] mb-2">
-						About Us
+						Join Us
 					</h5>
-					<div className="flex justify-center items-center">
-						<h2 className="text-3xl font-bold text-white">
+					<div className="flex  md:justify-center items-center mb-5">
+						<h2 className="text-2xl md:text-3xl font-bold text-white">
 							Subscribe for Newsletter{' '}
 						</h2>
-						<img className="ml-5 mt-2" src={star} alt="" />
+						<img className="ml-14 md:ml-2 mt-2" src={star} alt="" />
 					</div>
 				</div>
 				<div>
 					<div className="join ">
 						<input
-							className="input w-[300px] bg-transparent border-[.1px] border-[#FEF6F9] rounded-full"
-							placeholder="Email"
+							className="input w-[300px] bg-transparent placeholder:text-gray-500 border-[.01px] border-r-0 border-gray-500 rounded-l-full"
+							placeholder="Enter Your Email"
 						/>
 						<button className="btn-1 -ml-[50px] border-0 rounded-l-full">
 							Subscribe
@@ -43,7 +38,7 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<footer className="footer mt-10 text-white">
+			<footer className="footer mt-10 text-gray-500">
 				<aside>
 					<img src={logo2} alt="" />
 					<p>
@@ -51,33 +46,35 @@ const Footer = () => {
 						to be!
 					</p>
 					<div>
-						<h1 className="text-xl font-thin">Social Links</h1>
+						<h1 className="text-xl font-thin text-white">
+							Social Links
+						</h1>
 
 						<div className="flex justify-between mt-3 items-center gap-3">
-							<FaTwitter />
-							<FaLinkedinIn />
-							<FaTelegramPlane />
-							<FaBehance />
-							<FaDribbble />
+							<FaTwitter className="w-[24px] h-[24px] rounded-full p-[6px] bg-gray-800 text-white" />
+							<FaLinkedinIn className="w-[24px] h-[24px] rounded-full p-[6px] bg-gray-800 text-white" />
+							<FaTelegramPlane className="w-[24px] h-[24px] rounded-full p-[6px] bg-gray-800 text-white" />
+							<FaBehance className="w-[24px] h-[24px] rounded-full p-[6px] bg-gray-800 text-white" />
+							<FaDribbble className="w-[24px] h-[24px] rounded-full p-[6px] bg-gray-800 text-white" />
 						</div>
 					</div>
 				</aside>
 				<nav>
-					<header className="text-xl">Company</header>
+					<header className="text-xl text-white">Company</header>
 					<a className="link link-hover">Home</a>
 					<a className="link link-hover">About Us</a>
 					<a className="link link-hover">Career</a>
 					<a className="link link-hover">Press</a>
 				</nav>
 				<nav>
-					<header className="text-xl">Our Services</header>
+					<header className="text-xl text-white">Our Services</header>
 					<a className="link link-hover">UI/UX Design</a>
 					<a className="link link-hover">E-commerce</a>
 					<a className="link link-hover">Marketing</a>
 					<a className="link link-hover">Free Delivery</a>
 				</nav>
 				<nav>
-					<header className="text-xl">Contact</header>
+					<header className="text-xl text-white">Contact</header>
 					<a className="link link-hover flex">
 						<FaMailBulk className="mt-[6px] mr-2" />{' '}
 						alexgoat@gmail.com

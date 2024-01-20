@@ -9,47 +9,61 @@ import { Autoplay, FreeMode, Scrollbar, Navigation } from 'swiper/modules';
 
 import arrow from '../../../assets/images/send.png';
 import swiper1 from '../../../assets/images/swiper-1.png';
+import { useEffect, useState } from 'react';
 
 const Portfolio = () => {
+	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+	useEffect(() => {
+		const handleResize = () => {
+			setWindowWidth(window.innerWidth);
+		};
+
+		window.addEventListener('resize', handleResize);
+
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
+	}, []);
+
 	return (
 		<div className="container mx-auto portfolio bg-[#F8F6FD] py-20">
-			<div className="flex justify-between items-center">
-				<div>
+			<div className="md:flex justify-between items-center">
+				<div className="text-center md:text-left">
 					<h5 className="text-xl text-[var(--caption)] mb-2">
 						Portfolio
 					</h5>
-					<h2 className="text-4xl font-bold leading-tight">
+					<h2 className="text-2xl md:text-4xl font-bold leading-tight">
 						Discovering Digital Mastery <br /> and{' '}
 						<span className="text">Creative Innovation</span>
 					</h2>
 				</div>
-				<p className="border-l-[4px] rounded border-[var(--lightblue)] pl-3">
+				<p className="block md:hidden text-[14px] text-center md:text-left md:border-l-[4px] rounded md:border-[var(--lightblue)] md:pl-3">
+					In our portfolio section, you'll embark on a visual journey
+					through a meticulously curated gallery
+				</p>
+				<p className="hidden md:block text-center md:text-left md:border-l-[4px] rounded md:border-[var(--lightblue)] md:pl-3">
 					In our portfolio section, you'll embark on a visual journey
 					through a <br /> meticulously curated gallery that
 					represents the epitome of digital <br /> excellence and
 					creative ingenuity.
 				</p>
 			</div>
-			<div className="flex justify-between mt-4 items-center w-[50%] list-none">
-				<li className="hover:border-b-[2px] border-[var(--blue)] p-1">
-					All Projects
-				</li>
-				<li className="hover:border-b-[2px] border-[var(--blue)] p-1">
-					UI/UX Design
-				</li>
-				<li className="hover:border-b-[2px] border-[var(--blue)] p-1">
-					Graphic Design
-				</li>
-				<li className="hover:border-b-[2px] border-[var(--blue)] p-1">
-					Developments
-				</li>
+			<div className="flex justify-between mt-4 items-center w-[327px] overflow-hidden md:w-[560px] list-none">
+				<p className="links">All Projects</p>
+				<li className="links">UI/UX Design</li>
+				<li className="links">Graphic Design</li>
+				<li className="links">Developments</li>
 			</div>
 
 			{/* swiper  */}
 			<Swiper
-				slidesPerView={3}
 				spaceBetween={30}
 				loop={true}
+				slidesPerView={
+					windowWidth < 768 ? 1 : windowWidth < 1024 ? 2 : 3
+				}
+				centeredSlides={true}
 				freeMode={true}
 				loopedSlides={4}
 				autoplay={{

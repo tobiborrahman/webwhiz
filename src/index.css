@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 :root {
 	--blue: #185ad9;
 	--lightblue: #5f90f0;
@@ -13,6 +19,7 @@
 	background-image: linear-gradient(to right, var(--blue), var(--lightblue));
 	color: white;
 	border-radius: 30px;
+	border: 0.3px solid transparent;
 }
 
 .btn-1:hover {
@@ -25,7 +32,6 @@
 	padding: 8px 24px;
 	color: white;
 	border: 0.3px solid var(--lightblue);
-
 	border-radius: 30px;
 	color: var(--lightblue);
 }
@@ -43,6 +49,15 @@ nav ul li {
 	line-height: 24.4px;
 	font-weight: 400;
 	color: gray;
+}
+
+.links {
+	border-bottom: 2px solid transparent;
+	padding: 10px;
+}
+
+.links:hover {
+	border-bottom: 2px solid var(--blue);
 }
 
 .text {

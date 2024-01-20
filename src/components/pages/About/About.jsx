@@ -3,9 +3,9 @@ import group from '../../../assets/images/group-photo.png';
 
 const About = () => {
 	return (
-		<div className="container mx-auto py-20">
+		<div className="container mx-auto my-20">
 			<div className="md:flex justify-between items-center">
-				<div>
+				<div className="text-center md:text-left">
 					<h5 className="text-xl text-[var(--caption)] mb-2">
 						About Us
 					</h5>
@@ -14,7 +14,11 @@ const About = () => {
 						<span className="text">Timeless elegance</span>
 					</h2>
 				</div>
-				<p className="border-l-[4px] rounded border-[var(--lightblue)] pl-3">
+				<p className="block md:hidden text-center md:text-left md:border-l-[4px] rounded md:border-[var(--lightblue)] md:pl-3">
+					In our portfolio section, you'll embark on a visual journey
+					through a meticulously curated gallery
+				</p>
+				<p className="hidden md:block text-center md:text-left md:border-l-[4px] rounded md:border-[var(--lightblue)] md:pl-3">
 					In our portfolio section, you'll embark on a visual journey
 					through a <br /> meticulously curated gallery that
 					represents the epitome of digital <br /> excellence and
@@ -22,8 +26,8 @@ const About = () => {
 				</p>
 			</div>
 
-			<div className="flex justify-between items-center pt-10 relative">
-				<div className="bg-[#F6F9FE] rounded-lg py-9 px-[50px] w-[554px] h-[348px]">
+			<div className="md:flex justify-between items-center pt-10 relative">
+				<div className="bg-[#F6F9FE] rounded-lg py-5 md:py-9 px-[50px] w-[327px] h-[308px] md:w-[554px] md:h-[348px] mb-12 md:mb-0">
 					<div className="pb-3">
 						<p className="font-semibold">Graphic Design</p>
 						<div className="flex justify-center items-center w-full ">
@@ -70,15 +74,15 @@ const About = () => {
 					</div>
 				</div>
 
-				<div className="absolute left-[51%]">
+				<div className="ml-0 md:absolute md:left-[51%]">
 					<div className="relative">
 						<img
-							className="w-[460px]  h-[312px] ml-6 mt-[-34px]"
+							className="w-[327px] h-[256px] md:w-[460px]  md:h-[312px] ml-2 md:ml-6 mt-[-34px]"
 							src={group}
 							alt=""
 						/>
-						<div className="absolute top-[90%] right-[-12%]">
-							<div className="background flex justify-between items-center rounded-2xl w-[460px] px-10 text-white h-[90px]">
+						<div className="absolute top-[90%] md:top-[90%] md:right-[-12%]">
+							<div className="background flex justify-between items-center rounded-2xl w-[349px] md:w-[460px] px-10 text-white h-[81px] md:h-[90px]">
 								<div className="text-center">
 									<h3 className="text-2xl font-semibold">
 										58+
