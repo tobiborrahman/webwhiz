@@ -52,7 +52,10 @@ const Contact = () => {
 							/>
 							<br />
 
-							<input className="btn mt-5 w-full" type="submit" />
+							<input
+								className="btn-1 mt-5 w-full"
+								type="submit"
+							/>
 						</form>
 					</div>
 				</div>

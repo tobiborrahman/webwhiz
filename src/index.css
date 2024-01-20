@@ -65,3 +65,7 @@ nav ul li {
 	background-size: 50% 70%;
 	background-repeat: no-repeat;
 }
+
+.img-holder {
+	background-image: linear-gradient(#edeefb, #edeefb);
+}

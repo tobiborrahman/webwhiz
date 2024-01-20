@@ -36,7 +36,7 @@ const Footer = () => {
 							className="input w-[300px] bg-transparent border-[.1px] border-[#FEF6F9] rounded-full"
 							placeholder="Email"
 						/>
-						<button className="btn -ml-[50px] border-0 rounded-l-full">
+						<button className="btn-1 -ml-[50px] border-0 rounded-l-full">
 							Subscribe
 						</button>
 					</div>
